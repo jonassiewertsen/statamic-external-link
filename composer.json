@@ -1,0 +1,29 @@
+{
+  "name": "jonassiewertsen/link-fieldtype",
+  "description": "A fieldtype for links",
+  "type": "statamic-addon",
+  "autoload": {
+    "psr-4": {
+      "Jonassiewertsen\\LinkFieldtype\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jonas Siewertsen"
+    }
+  ],
+  "support": {
+    "email": "mail@jonassiewertsen.com"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Link Fieldtype",
+      "description": "A fieldtype for links"
+    },
+    "laravel": {
+      "providers": [
+        "Jonassiewertsen\\LinkFieldtype\\ServiceProvider"
+      ]
+    }
+  }
+}
