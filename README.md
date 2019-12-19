@@ -2,7 +2,7 @@
 
 This is a simple Fieldtype for Statamic 3, created to handle links. 
 
-![Link Fieldtype](link_fieldtype.png "Link Fieldtype")
+<img src="https://github.com/jonassiewertsen/Link-fieldtype/blob/master/link_fieldtype.png?raw=true" alt="Statamic Link Fieldtype">
 
 ## What can it do?
 
