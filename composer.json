@@ -1,6 +1,6 @@
 {
   "name": "jonassiewertsen/link-fieldtype",
-  "description": "A fieldtype for links",
+  "description": "A Statamic fieldtype for links",
   "keywords": [
       "statamic",
       "fieldtype",
