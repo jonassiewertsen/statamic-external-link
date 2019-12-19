@@ -4,8 +4,8 @@
   "keywords": [
       "statamic",
       "fieldtype",
-      "link
-    ],
+      "link"
+  ],
   "license": "MIT",
   "type": "statamic-addon",
   "autoload": {
