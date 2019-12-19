@@ -1,6 +1,12 @@
 {
   "name": "jonassiewertsen/link-fieldtype",
   "description": "A fieldtype for links",
+  "keywords": [
+      "statamic",
+      "fieldtype",
+      "link
+    ],
+  "license": "MIT",
   "type": "statamic-addon",
   "autoload": {
     "psr-4": {
