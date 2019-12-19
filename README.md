@@ -28,3 +28,6 @@ php please cache:clear
 ```
 
 Have fun!
+
+## License
+This fieldtype is licensed under the MIT license.
