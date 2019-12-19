@@ -1,6 +1,6 @@
 # Link Fieldtype for Statamic
 
-This is a simple Fieldtype, created to handle links. 
+This is a simple Fieldtype for Statamic 3, created to handle links. 
 
 ![Link Fieldtype](link_fieldtype.png "Link Fieldtype")
 
