@@ -21,6 +21,11 @@ Install it via the composer command
 composer require jonassiewertsen/link-fieldtype
 ```
 
+Publish the Javascript file for the Control Panel
+```
+php artisan vendor:publish --provider="Jonassiewertsen\LinkFieldtype\ServiceProvider" --force
+```
+
 Does the Fieldtype does not show up? Rebuild your addon package manifest and clear your cache
 ```
 php please addons:discover
