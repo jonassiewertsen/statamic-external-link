@@ -1,6 +1,6 @@
 # Release Notes
 
-## v1.0.2
+## v1.0.3
 
 ### Fixed
 - The command to publish the js files has been missing in the README.md
