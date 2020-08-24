@@ -1,13 +1,17 @@
 {
-  "name": "jonassiewertsen/link-fieldtype",
-  "description": "A Statamic fieldtype for links",
+  "name": "jonassiewertsen/external-link",
+  "description": "A Statamic fieldtype for external links",
   "keywords": [
       "statamic",
       "fieldtype",
       "link"
   ],
+  "require": {
+    "php": "^7.2.5",
+    "illuminate/support": "7.*",
+    "statamic/cms": "3.0.*"
+  },
   "license": "MIT",
-  "type": "statamic-addon",
   "autoload": {
     "psr-4": {
       "Jonassiewertsen\\LinkFieldtype\\": "src"
@@ -23,8 +27,8 @@
   },
   "extra": {
     "statamic": {
-      "name": "Link Fieldtype",
-      "description": "A fieldtype for links"
+      "name": "External Link",
+      "description": "A Statamic fieldtype for external links"
     },
     "laravel": {
       "providers": [
