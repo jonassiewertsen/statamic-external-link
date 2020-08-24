@@ -11,4 +11,4 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('src/resources/js/fieldtype.js', 'public/js/link-fieldtype.js');
+mix.js('src/resources/js/fieldtype.js', 'public/js/external-link.js');
