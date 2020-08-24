@@ -26,7 +26,10 @@ Publish the Javascript file for the Control Panel
 php artisan vendor:publish --provider="Jonassiewertsen\ExternalLink\ServiceProvider" --force
 ```
 
-Have fun!
+# Support
+I love to share with the community. Nevertheless, it does take a lot of work, time and effort. 
+
+[Sponsor me on GitHub](https://github.com/sponsors/jonassiewertsen/) to support my work and the support for this addon.
 
 ## License
 This fieldtype is licensed under the MIT license.
