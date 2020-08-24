@@ -2,8 +2,20 @@
 
 namespace Jonassiewertsen\ExternalLink;
 
-class ExternalLink extends \Statamic\Fields\Fieldtype
+use Statamic\Fields\Fieldtype;
+
+class ExternalLink extends Fieldtype
 {
+    protected $icon = 'earth';
+
+    /**
+     * @return string
+     */
+    public static function title()
+    {
+        return 'External Link';
+    }
+
     /**
      * Adding the https:// before saving
      *
