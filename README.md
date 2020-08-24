@@ -1,4 +1,4 @@
-# Link Fieldtype for Statamic
+# External Link Fieldtype for Statamic 3
 
 This is a simple Fieldtype for Statamic 3, created to handle links. 
 
@@ -18,18 +18,12 @@ This Fieldtype works with **Statamic 3** only!
 
 Install it via the composer command
 ```
-composer require jonassiewertsen/link-fieldtype
+composer require jonassiewertsen/statamic-external-link
 ```
 
 Publish the Javascript file for the Control Panel
 ```
-php artisan vendor:publish --provider="Jonassiewertsen\LinkFieldtype\ServiceProvider" --force
-```
-
-Does the Fieldtype does not show up? Rebuild your addon package manifest and clear your cache
-```
-php please addons:discover
-php please cache:clear
+php artisan vendor:publish --provider="Jonassiewertsen\ExternalLink\ServiceProvider" --force
 ```
 
 Have fun!
