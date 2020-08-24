@@ -14,7 +14,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Jonassiewertsen\\LinkFieldtype\\": "src"
+      "Jonassiewertsen\\ExternalLink\\": "src"
     }
   },
   "authors": [
@@ -32,7 +32,7 @@
     },
     "laravel": {
       "providers": [
-        "Jonassiewertsen\\LinkFieldtype\\ServiceProvider"
+        "Jonassiewertsen\\ExternalLink\\ServiceProvider"
       ]
     }
   }

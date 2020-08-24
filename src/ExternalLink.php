@@ -1,8 +1,8 @@
 <?php
 
-namespace Jonassiewertsen\LinkFieldtype;
+namespace Jonassiewertsen\ExternalLink;
 
-class LinkFieldtype extends \Statamic\Fields\Fieldtype
+class ExternalLink extends \Statamic\Fields\Fieldtype
 {
     /**
      * Adding the https:// before saving

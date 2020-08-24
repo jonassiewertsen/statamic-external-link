@@ -1,20 +1,20 @@
 <?php
 
-namespace Jonassiewertsen\LinkFieldtype;
+namespace Jonassiewertsen\ExternalLink;
 
 use Statamic\Providers\AddonServiceProvider;
 
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__ . '/../public/js/link-fieldtype.js'
+        __DIR__ . '/../public/js/external-link.js'
     ];
 
     public function boot()
     {
         parent::boot();
 
-        LinkFieldtype::register();
+        ExternalLink::register();
     }
 
 }

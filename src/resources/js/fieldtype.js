@@ -1,5 +1,5 @@
-import Fieldtype from './components/link-fieldtype';
+import Fieldtype from './components/external-link';
 
 Statamic.booting(() => {
-    Statamic.$components.register('link-fieldtype', Fieldtype);
+    Statamic.$components.register('external-link', Fieldtype);
 });
