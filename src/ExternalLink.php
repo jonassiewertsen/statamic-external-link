@@ -8,7 +8,7 @@ class ExternalLink extends Fieldtype
 {
     protected $icon = 'earth';
 
-    protected $categories = ['text', 'media'];
+    protected $categories = ['text'];
 
     /**
      * @return string
