@@ -10,11 +10,7 @@ class ServiceProvider extends AddonServiceProvider
         __DIR__ . '/../public/js/external-link.js'
     ];
 
-    public function boot()
-    {
-        parent::boot();
-
-        ExternalLink::register();
-    }
-
+    protected $fieldtypes = [
+        ExternalLink::class,
+    ];
 }
