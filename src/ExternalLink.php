@@ -27,6 +27,10 @@ class ExternalLink extends Fieldtype
      */
     public function process($data)
     {
+        if (! $data) {
+            return;
+        }
+        
         return 'https://' . $data;
     }
 
