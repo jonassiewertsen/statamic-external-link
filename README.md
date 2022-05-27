@@ -1,5 +1,10 @@
 # External Link Fieldtype for Statamic 3
 
+## Wanna learn Statamic?
+Visit my newest project Statamictutorials.com. Many tutorials are free.
+[<img src="https://statamictutorials.com/images/seo/statamictutorials.png" width="600" />](https://statamictutorials.com)
+
+## Description
 This is a simple Fieldtype for Statamic 3, created to handle links. 
 
 <img src="https://github.com/jonassiewertsen/Link-fieldtype/blob/master/link_fieldtype.png?raw=true" alt="Statamic Link Fieldtype">
