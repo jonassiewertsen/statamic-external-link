@@ -23,12 +23,12 @@ This Fieldtype works with **Statamic 3** only!
 
 Install it via the composer command
 ```
-composer require jonassiewertsen/statamic-external-link
+composer require delz-dev/statamic-pixel
 ```
 
 Publish the Javascript file for the Control Panel
 ```
-php artisan vendor:publish --provider="Jonassiewertsen\ExternalLink\ServiceProvider" --force
+php artisan vendor:publish --provider="Delz-dev\statamic-pixel\ServiceProvider" --force
 ```
 
 # Support
